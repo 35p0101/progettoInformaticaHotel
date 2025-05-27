@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibraryHotel;
 
-namespace ClassLibrary
+namespace ClassLibraryHotel
 {
     public class Amministratore: Dipendente
     {
@@ -16,7 +17,6 @@ namespace ClassLibrary
             this.username = username;
             this.passwordHash = passwordHash;
         }
-
 
         public string Username { get => username; set => username = value; }
         public string PasswordHash { get => passwordHash; set => passwordHash = value; }

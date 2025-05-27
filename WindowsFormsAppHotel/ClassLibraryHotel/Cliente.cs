@@ -1,7 +1,7 @@
 ﻿using ClassLibraryHotel;
 using System.ComponentModel;
 
-namespace ClassLibrary
+namespace ClassLibraryHotel
 {
     public class Cliente
     {
@@ -13,7 +13,7 @@ namespace ClassLibrary
         private string cognome;
         private string documento;
 
-        private List<Transazione> transazioni;
+        private BindingList<Transazione> transazioni;
 
         public Cliente(string nome, string cognome, string documento)
         {
@@ -25,13 +25,13 @@ namespace ClassLibrary
             this.documento = documento;
 
             clienti.Add(this);
-            transazioni = new List<Transazione>();
+            transazioni = new BindingList<Transazione>();
         }
 
         public int Id { get => id; }
         public string Nome { get => nome; set => nome = value; }
         public string Cognome { get => cognome; set => cognome = value; }
-        public List<Transazione> Transazioni { get => transazioni; set => transazioni = value; }
+        public BindingList<Transazione> Transazioni { get => transazioni; set => transazioni = value; }
 
         public void AddTransazione(Transazione t)
         {

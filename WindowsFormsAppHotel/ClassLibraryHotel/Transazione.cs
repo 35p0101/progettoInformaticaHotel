@@ -1,4 +1,4 @@
-﻿using ClassLibrary;
+﻿using ClassLibraryHotel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
