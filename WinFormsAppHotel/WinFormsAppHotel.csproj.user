@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListaAttivita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListaCamere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListaClienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListaDipendenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormListaPrenotazioni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControlAddCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlAddPrenotazione.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlAggiungiAttivita.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlAggiungiStipendio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlCambioStatoCamera.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlRemoveCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlRimuoviAttivita.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlRimuoviPrenotazione.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
